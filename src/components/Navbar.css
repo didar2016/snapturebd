@@ -48,3 +48,4 @@
 @media (max-width: 1024px) {
   .nav__burger { display: block; }
   .nav__links { display: none; }
+}
