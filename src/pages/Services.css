@@ -1,0 +1,7 @@
+.process { background: var(--bg-soft); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.process__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.process__item { padding: 32px 0; border-top: 1px solid var(--gold); }
+.process__step { font-family: var(--serif); font-size: 3rem; color: var(--gold); display: block; margin-bottom: 12px; }
+.process__item h3 { margin-bottom: 14px; }
+@media (max-width: 900px) { .process__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .process__grid { grid-template-columns: 1fr; } }
