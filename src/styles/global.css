@@ -16,7 +16,17 @@
 
 * { box-sizing: border-box; }
 
-html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+html, body { 
+  margin: 0; 
+  padding: 0; 
+  background: #0b0b0c; 
+  background: var(--bg); 
+  color: #ececec; 
+  color: var(--text); 
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+  font-family: var(--sans); 
+  -webkit-font-smoothing: antialiased; 
+}
 
 img { max-width: 100%; display: block; }
 
